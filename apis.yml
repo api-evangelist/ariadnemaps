@@ -1,23 +1,84 @@
 aid: ariadnemaps
+
 name: Ariadnemaps
-description: 'Ariadnemaps is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.ariadne.inc/og/default.png
+
+description: Ariadnemaps provides a privacy‑first people counting platform that uses hybrid fusion of phone‑signal sensing and time‑of‑flight
+  depth sensors to deliver sub‑meter accuracy without cameras or personal data. The solution offers real‑time occupancy monitoring, queue management,
+  and visitor flow analytics for venues such as retail stores, airports, and smart cities, complying with GDPR and EU AI Act requirements.
+
 url: https://raw.githubusercontent.com/api-evangelist/ariadnemaps/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- PeopleCounting
+- PrivacyFirst
+- IoT
+- Analytics
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/ariadnemaps-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/ariadnemaps-llms.txt
+- type: Hosts
+  url: hosts/ariadnemaps-hosts.yml
+- type: Vendors
+  url: vendors/ariadnemaps-vendors.yml
+- type: TermsOfService
+  url: https://www.ariadne.inc/terms/
+- type: PrivacyPolicy
+  url: https://www.ariadne.inc/privacy-policy/
+- type: Pricing
+  url: https://www.ariadne.inc/pricing/
+- type: Login
+  url: https://app.ariadne.inc/login
+- type: GettingStarted
+  url: https://www.ariadne.inc/get-started/
+- type: DomainSecurity
+  url: security/ariadnemaps-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/ariadnemaps
+  url: https://www.ariadne.inc
+
+apis:
+- name: Ariadnemaps API
+  description: People counting API providing occupancy monitoring and analytics.
+  humanURL: https://www.ariadne.inc/get-started/
+  aid: ariadnemaps:ariadnemaps-api
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-26'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://equityzen.com/company/ariadnemaps
+    status: 403
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

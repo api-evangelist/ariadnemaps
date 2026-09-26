@@ -1,0 +1,21 @@
+generated: 2026-09-26
+name: Ariadne Maps
+method: searched
+source: https://www.ariadne.inc/pricing/
+audience: developer-api
+pricing_basis: usage-other
+published: true
+delivery:
+  managed: true
+plans:
+  - name: Ariadne Essentials
+    description: "Daily Reporting"
+    price_text: "€50 / device / month + €170 one-time per device"
+    price: 50
+    currency: EUR
+    billing_period: month
+    limits:
+      - name: devices
+        max: null
+        note: "per device pricing"
+    notes: "Includes People Counting, Sales Integration, Weather"

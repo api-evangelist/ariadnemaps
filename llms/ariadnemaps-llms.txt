@@ -1,0 +1,64 @@
+# Ariadne
+
+> Precise, GDPR-compliant visitor analytics using proprietary signal-based and hybrid sensor fusion technology. Ariadne provides real-time foot traffic data, occupancy tracking, and visitor journey analytics for retail, airports, transportation hubs, and smart cities.
+
+## Core Solutions
+
+- [People Counting](/solutions/people-counting): Hybrid Fusion technology combining Time-of-Flight and patented signal sensing for up to 99% accuracy in footfall, occupancy, dwell time, and flow tracking. Camera-free, GDPR-native, and structurally outside EU AI Act Annex III high-risk biometric categories. The pillar page covers definitions, capability triplet, technology, comparison vs cameras + Wi-Fi, accuracy by environment, how-to-choose criteria, deployment HowTo, EU AI Act stance, FAQ, and a glossary.
+  - Section anchors: /solutions/people-counting/#capability (footfall, occupancy, dwell time, flow definitions), #hybrid (Hybrid Fusion technical), #compare (vs cameras and LiDAR), #choose (seven procurement criteria), #deployment (six-step rollout), #ai-act (EU AI Act stance), #faq (people counting FAQ), #glossary (term definitions).
+- [Employee Scheduling](/solutions/employee-scheduling): The demand signal that retail workforce-management tools need. Anonymous footfall, dwell, and zone occupancy exported into SAP, Workday, UKG, Quinyx, or Microsoft Shifts so the schedule is built against people who walked in (not just people who bought via POS). Backs the demand-based / footfall-driven / labor-forecasting / shift-scheduling queries. Cited evidence on the page: Mani, Kesavan, Swaminathan POMS 2015 (+8.56% modeled sales lift when peak understaffing is closed), Zebra 17th Annual Global Shopper Study 2024 (in-store satisfaction 85%→81% YoY), Logile retail labor survey 2025 (77% of associates say their store loses sales to poor scheduling), McKinsey 2024 (+3pp comp-store sales correlated with lower frontline turnover).
+  - Section anchors: /solutions/employee-scheduling/#definition (what employee scheduling is and how Ariadne fits as input layer, not a scheduler), #problem (four ways static scheduling leaks money, each with cited stats), #overview (three-stage process: forecast, cover, inject), #kpi (the four-stat proof moment), #integrations (SAP, Workday, UKG, Microsoft Shifts, Quinyx, plus CSV/REST fallback), #industries (retail stores, shopping centers, airports), #faq (employee scheduling FAQ including the demand-based vs forecast-based distinction and the EU AI Act compliance posture).
+- [Indoor Navigation](/solutions/indoor-navigation): Privacy-first browser wayfinding for everyone, with a live blue dot once a visitor opts in. No app, no login, runs on existing Wi-Fi via EaseLink or Ariadne sensors, camera-free.
+- [Visitor Marketing](/solutions/visitor-marketing): Consent-first engagement. Activates only after a visitor opts in via Wi-Fi, QR, or NFC; turns anonymous footfall into permission-based hyperlocal campaigns. GDPR, CPRA, PIPEDA compliant; no PII at capture.
+- [Threa AI](/solutions/threa-ai): The AI assistant built into Ariadne. Ask your anonymous people counting data questions in plain language and get answers, summaries, anomaly alerts, and forecasts. No new tracking, no PII at capture.
+
+## Technology Stack
+
+- **Hybrid Fusion**: Combines depth-sensing (ToF) for count validation with signal sensing for journey analytics.
+- **Privacy by Design**: No stored video, no facial recognition, 100% GDPR compliant.
+- **Integrations**: Support for 50+ platforms including Salesforce, HubSpot, Power BI, Tableau, Google Analytics, Slack, Microsoft Teams, SAP, Oracle, and more. [View all integrations](/platform/integrations).
+- **Ariadne Analytics**: Comprehensive dashboard for spatial data visualization and reporting. [Explore Analytics](/platform/ariadne-analytics).
+- **EaseLink**: Plug-and-play connectivity for building automation and smart building systems. [Learn about EaseLink](/platform/easelink).
+
+## Industries
+
+- [Retail](/industries/retail-stores): Optimize store layouts, conversion rates, and staff allocation.
+- [Airports](/industries/airports): Passenger flow management, queue optimization, and non-aeronautical revenue growth.
+- [Smart Cities](/industries/smart-cities): Urban planning, public safety, and mobility tracking using anonymized signals.
+- [Shopping Centers](/industries/shopping-centers): Tenant performance tracking and visitor flow analysis.
+- [Digital Signage](/industries/digital-signage): Real-time audience measurement and content optimization.
+
+## Resources & Research
+
+- [Resources hub](/resources/): The Ariadne library: case studies of named-venue deployments, articles from the Ariadne team, and product walkthrough videos. Mixed-format directory with industry and solution filters; faceted via `?industry=` / `?solution=` / `?query=`. Cross-format entrypoint for the three sub-hubs below.
+- [Blogs](/resources/blogs): Deep dives into retail analytics, airport operations, and smart city planning.
+  - [Best people counting systems 2026](/resources/blogs/best-people-counting-systems-2026): 9-vendor head-to-head comparison (Ariadne, FootfallCam, RetailNext, Density, Sensormatic, V-Count, Milesight, DILAX, Crowd Connected) by privacy posture, accuracy across environments, install footprint, integration depth, and five-year cost.
+  - [How Ariadne sits structurally outside EU AI Act high-risk categories](/resources/blogs/eu-ai-act-people-counting-2026): Architectural analysis of Annex III biometric categories and Article 5 prohibitions, with citations to Regulation 2024/1689. Explains why Hybrid Fusion people counting is not subject to the high-risk obligations camera-based vendors face.
+- [Case Studies](/resources/case-studies): Real-world success stories across global retail brands and major international airports.
+- [Videos](/resources/videos): Product walkthroughs, customer stories, and engineering deep dives.
+- [Research](/research): Scientific publications and whitepapers on signal processing and spatial analytics.
+- [How it Works](/platform/how-it-works/): Detailed technical breakdown of Hybrid Fusion (Time-of-Flight depth + patented signal sensing) with real patent registers (DE102022115597A1, EP3964852A1, CA3125501A1).
+
+## Hardware
+
+- [Ariadne Sensor](/hardwares/sensors/ariadne-sensor): Our flagship plug-and-play sensor for signal detection and hybrid fusion counting.
+- [Catalog](/hardwares): Full range of sensing hardware for various environments and deployment scenarios.
+
+## Company, Proof & Tools
+
+- [Customers](/customers): Directory of named customer deployments across retail, airports, shopping centers, and municipalities, filterable by industry and solution. Each entry links to a profile page describing what was deployed and measured.
+- [Become a Partner](/partners/become-a-partner): Partner program application. Three models (reseller, referral, integration), who fits (installers, signage and DOOH operators, smart city and retail consultancies), and the application form.
+- [Why Ariadne](/why-ariadne): Side-by-side comparison of eight sensing technologies (cameras, ToF, radar, Wi-Fi, and more) on accuracy, privacy, and install effort, and where Hybrid Fusion fits.
+- [ROI Calculator](/roi-calculator): Free conversational retail ROI calculator, no signup. Models conversion, revenue, and profit from 12 store inputs, benchmarked against 15 store categories and 7 neighborhood types.
+- [Pricing](/pricing): Plan structure for Ariadne's people counting and visitor analytics packages.
+- [FAQ](/faq): General questions about getting started, pricing, deployment timelines, contracts, support, and training. Topic-specific FAQs live on the relevant solution and industry pages.
+- [About](/about): Company background: Munich-based since 2017, founded by Georgios Pipelidis and Nikolaos Tsiamitros, deployments in 32+ countries.
+- [Deployments Map](/deployments-map): Interactive map of Ariadne deployment locations worldwide.
+- [Events](/events): Trade shows and conferences where Ariadne exhibits, split into upcoming and past, each with dates, venue, and stand number.
+- [FTE Global 2026](/events/fte-global-2026): Ariadne exhibits at Future Travel Experience Global 2026, 8 to 10 September 2026, Gaylord Texan Resort & Convention Center, Dallas-Fort Worth, Stand MB29. What is demonstrated on the stand, airport results (Glasgow Airport £54,000 additional daily non-aeronautical revenue and 23% fewer complaints, 1,000+ sensors at San Diego International Airport), and a meeting scheduler.
+- [EXPO REAL 2026](/events/expo-real-2026): Ariadne exhibits at EXPO REAL 2026, Europe's largest trade fair for real estate, investment and infrastructure, October 5 to 7, 2026, Messe München, Hall A3, Stand TB19, in the Transform & Beyond program. Camera-free footfall analytics for owners, operators, and asset managers (WEKO 20% traffic growth and 40% sales lift, Glasgow Airport £54,000 additional daily non-aeronautical revenue), and a meeting scheduler.
+- [Groceryshop 2026](/events/groceryshop-2026): Ariadne's team attends Groceryshop 2026 (no stand), September 22 to 24, 2026, Mandalay Bay, Las Vegas. Retail results (WEKO 20% traffic growth and 40% sales lift, Watsons 20% traffic lift in one week), checkout-queue measurement, and a meeting scheduler.
+
+---
+
+For technical specifications, API documentation, or to request a demo, visit [ariadne.inc](https://www.ariadne.inc).
