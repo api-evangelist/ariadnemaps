@@ -21,7 +21,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-26'
 
-modified: '2026-09-26'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -43,6 +43,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.ariadne.inc/feed.xml
+  type: BlogRSS
 - type: Plans
   url: plans/ariadnemaps-plans-pricing.yml
 - type: LLMsTxt
