@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
+- cisco-meraki/integrations/cisco-meraki-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -19,3 +20,22 @@ edges:
   seller_name: Ariadne
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: Cisco Meraki (own)
+  partner: cisco-meraki
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.cisco.com/en-US/apps/783498
+  mirror_of: cisco-meraki/integrations/cisco-meraki-integration-edges.yml
+  apps:
+  - StoreBit
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: Footfall Analytics, Physical Asset Tracking
+source:
+- cisco-meraki/integrations/cisco-meraki-integration-edges.yml
